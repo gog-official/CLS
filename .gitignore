@@ -1,0 +1,47 @@
+# bins
+/bin/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+#artfacts
+*.test
+*.out
+
+#dependency
+vendor/
+
+#go workspace
+go.work
+go.work.sum
+
+#env(ESSENTIAL)
+.env
+.env.*
+
+#logs
+.log
+
+#stuffs
+.DS_Store
+Thumbs.db
+
+#IDE/Editor thingies
+.idea/
+*.swp
+*.swo
+#Why did you expected me to write .vscode/ i dont use vscock
+
+#coverage reports
+coverage.out
+*.coverprofile
+
+#tmps
+tmp/
+temp/
+
+#gen files for pb
+*.pb.go
